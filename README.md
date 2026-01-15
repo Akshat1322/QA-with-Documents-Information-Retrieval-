@@ -14,32 +14,7 @@ Built with **Streamlit**, **LlamaIndex**, and **Google Gemini** (Flash models), 
 * **🛠️ Production-Grade Engineering:** Includes custom logging, exception handling, and modular code architecture.
 * **💻 Interactive UI:** User-friendly interface built with Streamlit.
 
----
 
-## 📂 Project Structure
-
-\`\`\`text
-QAGEMINI/
-├── QAWithPDF/               # Core Application Logic
-│   ├── __init__.py          # Package initialization
-│   ├── data_ingestion.py    # Handles loading and processing PDFs
-│   ├── embedding.py         # Manages VectorStore and Embeddings
-│   └── model_api.py         # Configures the Gemini LLM
-├── Experiments/             # Testing Playground
-│   └── experiment.ipynb     # Jupyter notebook for testing logic
-├── logs/                    # Runtime logs (Auto-generated)
-├── Data/                    # Temporary storage for uploaded files
-├── storage/                 # Local Vector Database persistence
-├── StreamlitApp.py          # Main Frontend Application
-├── logger.py                # Custom Logging Configuration
-├── exception.py             # Custom Exception Handling
-├── setup.py                 # Package Setup
-├── requirements.txt         # Project Dependencies
-├── .env                     # API Keys (Not tracked in Git)
-└── .gitignore               # Git Ignore Rules
-\`\`\`
-
----
 
 ## 🛠️ Installation & Setup
 
