@@ -1,0 +1,38 @@
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# You never want to commit your library code
+.venv/
+venv/
+env/
+
+# --- Environment Variables (CRITICAL) ---
+# Never commit your API keys!
+.env
+
+# --- IDE Settings (PyCharm/VS Code) ---
+# These are personal settings, not for the project
+.idea/
+.vscode/
+*.swp
+
+# --- Project Specific Data (Runtime generated) ---
+# 1. The logs folder created by logger.py
+logs/
+*.log
+
+# 2. The uploaded PDF folder created by StreamlitApp.py
+Data/
+
+# 3. The vector database storage folder (can be large)
+storage/
+
+# 4. Streamlit cache (optional but recommended)
+.streamlit/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
