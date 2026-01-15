@@ -44,41 +44,6 @@ GOOGLE_API_KEY=your_google_api_key_here
 
 ---
 
-## ▶️ How to Run
 
-To start the application, run the Streamlit frontend:
 
-\`\`\`bash
-streamlit run StreamlitApp.py
-\`\`\`
 
-The application will open in your browser at \`http://localhost:8501\`.
-
-1.  **Upload** a PDF document using the sidebar or upload area.
-2.  Click **"Submit & Process"** to ingest the file.
-3.  Type your question in the text box (e.g., *"Summarize this document"* or *"What is the main conclusion?"*).
-4.  Wait for Gemini to generate the answer!
-
----
-
-## 🔧 Technical Details
-
-* **LLM:** Google Gemini 2.0 Flash / 3.0 Flash Preview (via \`llama-index-llms-gemini\`)
-* **Embeddings:** Google \`text-embedding-004\`
-* **Orchestration:** LlamaIndex (v0.10+)
-* **Frontend:** Streamlit
-* **Vector Store:** Local File Storage (Persisted via LlamaIndex \`StorageContext\`)
-
----
-
-## 🔮 Future Improvements
-* Add **Chat Memory** to support follow-up questions.
-* Integrate **LlamaParse** for better handling of tables and complex formatting.
-* Deploy to **Streamlit Cloud** or **Hugging Face Spaces**.
-* Migrate vector storage to a cloud vector database (e.g., Pinecone or Weaviate).
-
----
-
-## 📝 License
-This project is open-source and available under the MIT License.
-EOF
